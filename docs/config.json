@@ -2,184 +2,308 @@
   "date": "2023.11",
   "entries": [
     {
-      "quadrant": 0,
-      "ring": 1,
-      "label": "AWS Athena",
       "active": true,
+      "description": "(Continuous Integration/Continuous Deployment): Подход к разработке, включающий автоматизированные процессы интеграции кода и развертывания изменений в приложениях.",
+      "label": "CI/CD",
       "moved": 0,
-      "details": "Какие-то детали",
-      "description": "Какое-то описание"
+      "quadrant": 1,
+      "ring": 0
     },
     {
-        "label": "Docker",
-        "ring": 2,
-        "quadrant": 0,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Пакетный менеджер для языка JavaScript, используемый для установки и управления зависимостями в проектах Node.js.",
+      "label": "NPM",
+      "moved": 0,
+      "quadrant": 1,
+      "ring": 2
     },
     {
-        "label": "GitLab",
-        "ring": 3,
-        "quadrant": 0,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Фреймворк для автоматизации веб-приложений, который позволяет тестировать веб-интерфейсы в различных браузерах.",
+      "label": "Selenium",
+      "moved": 0,
+      "quadrant": 1,
+      "ring": 1
     },
     {
-        "label": "Zabbix",
-        "ring": 0,
-        "quadrant": 0,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Инструмент для управления задачами и проектами, обеспечивающий отслеживание задач, контроль версий и совместную работу.",
+      "label": "YouTrack",
+      "moved": 0,
+      "quadrant": 1,
+      "ring": 0
     },
     {
-        "label": "Python 3",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Интегрированная среда разработки (IDE) для языка Python, предоставляющая широкие возможности разработки и отладки.",
+      "label": "PyCharm",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "FastAPI",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Система мониторинга и оповещения, ориентированная на сбор и анализ метрик. Широко используется для мониторинга состояния приложений и инфраструктуры.",
+      "label": "Prometheus",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "Uvicorn",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Платформа для визуализации данных из различных источников, включая системы мониторинга. Предоставляет гибкие и красочные дашборды.",
+      "label": "Grafana",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "Pydantic",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Система для трассировки запросов и профилирования приложений. Используется для анализа производительности и выявления узких мест в приложениях.",
+      "label": "Tempo",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "SQLAlchemy",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Система для сбора, индексации и поиска логов. Обеспечивает эффективное хранение и анализ журналов для отладки и мониторинга.",
+      "label": "Loki",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "Alembic",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Инструмент статического анализа кода, который проверяет исходный код на соответствие определенным стандартам и правилам оформления. Широко используется для повышения качества кода и поддержания стиля в проектах разработки программного обеспечения.",
+      "label": "Ruff",
+      "moved": 0,
+      "quadrant": 1,
+      "ring": 0
     },
     {
-        "label": "pytest",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Платформа для контейнеризации приложений. Обеспечивает удобство упаковки, доставки и выполнения приложений в изолированном окружении.",
+      "label": "Docker",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "pytest-asyncio",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Платформа для управления исходным кодом, отслеживания ошибок, непрерывной интеграции и других современных DevOps-процессов.",
+      "label": "GitLab",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "coverage",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Мониторинговая система для отслеживания состояния сети, серверов и приложений. Обеспечивает централизованный мониторинг и уведомления о проблемах.",
+      "label": "Zabbix",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
     },
     {
-        "label": "Jinja2",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Мощный и универсальный язык программирования, широко используемый для веб-разработки, анализа данных, машинного обучения и других областей.",
+      "label": "Python3",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "Redis",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Cовременный веб-фреймворк для создания API на языке Python. Позволяют эффективно разрабатывать и разворачивать веб-приложения.",
+      "label": "FastAPI",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "Psycopg2",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "ASGI-сервер",
+      "label": "Uvicorn",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "Poetry",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Библиотека для валидации данных и создания схемы данных на языке Python. Используется для определения и проверки формата данных в приложениях.",
+      "label": "Pydantic",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "Golang",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "SQL-ORM для работы с базами данных. Вместе обеспечивают эффективное управление базой данных и миграциями.",
+      "label": "SQLAlchemy",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "APScheduler",
-        "ring": 1,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Инструмент для управления миграциями базы данных в приложениях Python",
+      "label": "Alembic",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
     },
     {
-        "label": "LDAP",
-        "ring": 0,
-        "quadrant": 3,
-        "active": true,
-        "moved": 0,
-        "details": "Какие-то детали",
-        "description": "Какое-то описание"
+      "active": true,
+      "description": "Фреймворк для тестирования приложений на языке Python",
+      "label": "Pytest",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Pytest-asyncio расширяет pytest для работы с асинхронным кодом, обеспечивая удобное тестирование асинхронных приложений.",
+      "label": "Pytest-asyncio",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "Инструмент для измерения покрытия кода тестами. Позволяет определить, какие части кода были протестированы, а какие требуют дополнительных тестов.",
+      "label": "Coverage",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "Шаблонизатор для языка Python, который позволяет встраивать динамические шаблоны в код. Широко используется в веб-разработке и генерации текстовых файлов.",
+      "label": "Jinja2",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Высокопроизводительная система управления данными, используемая как кэш, брокер сообщений и хранилище данных. Широко применяется в распределенных системах и веб-приложениях.",
+      "label": "Redis",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Адаптер для работы с PostgreSQL в языке Python. Позволяет взаимодействовать с базой данных PostgreSQL из Python-приложений.",
+      "label": "Psycopg2",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Инструмент для управления зависимостями и сборкой проектов на языке Python. Облегчает управление зависимостями и создание виртуальных окружений.",
+      "label": "Poetry",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Язык программирования, разработанный Google, ориентированный на производительность и легкость разработки. Используется для создания эффективных и масштабируемых веб-серверов и приложений.",
+      "label": "Golang",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Библиотека для планирования и управления периодическими задачами в приложениях на языке Python. Используется для автоматизации рутинных задач и планирования событий.",
+      "label": "APScheduler",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "(Lightweight Directory Access Protocol): Протокол доступа к директории, используемый для управления и доступа к распределенным директориям. Часто применяется в системах управления идентификацией и авторизацией.",
+      "label": "LDAP",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Библиотека для преобразования XML в словарь Python. Используется для удобного доступа к данным в формате XML.",
+      "label": "XMLtodict",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Библиотека для анализа данных на языке Python. Предоставляет удобные средства для обработки и анализа данных.",
+      "label": "Pandas",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Библиотека для работы с URL на языке Python. Предоставляет удобные средства для работы с URL.",
+      "label": "Yarl",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "Прогрессивный фреймворк для создания пользовательских интерфейсов. Используется для создания динамических веб-приложений.",
+      "label": "Vue.js",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "Библиотека для создания пользовательских интерфейсов. Используется для создания динамических веб-приложений.",
+      "label": "Bootstrap",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 1
+    },
+    {
+      "active": true,
+      "description": "Язык программирования, используемый для создания динамических веб-приложений.",
+      "label": "JavaScript",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Реляционная система управления базами данных, используемая для хранения данных в приложениях.",
+      "label": "PostgreSQL",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 0
+    },
+    {
+      "active": true,
+      "description": "Инструмент для создания и документирования API. Позволяет создавать и документировать API в формате OpenAPI.",
+      "label": "Swagger",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Платформа для оркестрации контейнеров. Обеспечивает управление и мониторинг контейнеров в распределенных системах.",
+      "label": "Kubernetes",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 2
     }
   ]
 }
