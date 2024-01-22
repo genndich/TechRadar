@@ -253,7 +253,7 @@ function radar_visualization(config) {
         .style("fill", config.rings[i].color)
         .style("opacity", 0.35)
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", "42px")
+        .style("font-size", "50px")
         .style("font-weight", "bold")
         .style("pointer-events", "none")
         .style("user-select", "none");
@@ -284,8 +284,7 @@ function radar_visualization(config) {
       .style("font-weight", "bold")
 
     // date
-    radar
-      .append("text")
+    radar.append("text")
       .attr("transform", translate(title_offset.x, title_offset.y + 20))
       .text(config.date || "")
       .style("font-family", "Arial, Helvetica")
@@ -298,7 +297,7 @@ function radar_visualization(config) {
       .text("▲ moved up     ▼ moved down")
       .attr("xml:space", "preserve")
       .style("font-family", "Arial, Helvetica")
-      .style("font-size", "10px");
+      .style("font-size", "12px");
 
     // legend
     var legend = radar.append("g");
@@ -310,14 +309,14 @@ function radar_visualization(config) {
         ))
         .text(config.quadrants[quadrant].name)
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", "18px")
+        .style("font-size", "20px")
         .style("font-weight", "bold");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
-          .style("font-size", "12px")
+          .style("font-size", "14px")
           .style("font-weight", "bold")
           .style("fill", config.rings[ring].color);
         legend.selectAll(".legend" + quadrant + ring)
@@ -336,8 +335,9 @@ function radar_visualization(config) {
               .attr("class", "legend" + quadrant + ring)
               .attr("id", function(d, i) { return "legendItem" + d.id; })
               .text(function(d, i) { return d.id + ". " + d.label; })
+
               .style("font-family", "Arial, Helvetica")
-              .style("font-size", "11px")
+              .style("font-size", "12px")
               .on("mouseover", function(d) { showBubble(d); highlightLegendItem(d); })
               .on("mouseout", function(d) { hideBubble(d); unhighlightLegendItem(d); });
       }
@@ -362,7 +362,7 @@ function radar_visualization(config) {
     .style("fill", "#333");
   bubble.append("text")
     .style("font-family", "sans-serif")
-    .style("font-size", "10px")
+    .style("font-size", "12px")
     .style("fill", "#fff");
   bubble.append("path")
     .attr("d", "M 0,0 10,0 5,8 z")
