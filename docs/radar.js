@@ -262,9 +262,9 @@ function radar_visualization(config) {
 
   function legend_transform(quadrant, ring, index=null) {
     var dx = ring < 2 ? 0 : 140;
-    var dy = (index == null ? -16 : index * 12);
+    var dy = (index == null ? -16 : index * 18);
     if (ring % 2 === 1) {
-      dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
+      dy = dy + 36 + segmented[quadrant][ring-1].length * 18;
     }
     return translate(
       legend_offset[quadrant].x + dx,
@@ -316,7 +316,7 @@ function radar_visualization(config) {
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
-          .style("font-size", "14px")
+          .style("font-size", "15px")
           .style("font-weight", "bold")
           .style("fill", config.rings[ring].color);
         legend.selectAll(".legend" + quadrant + ring)
