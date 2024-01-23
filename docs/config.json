@@ -15,7 +15,7 @@
       "label": "NPM",
       "moved": 0,
       "quadrant": 3,
-      "ring": 2
+      "ring": 0
     },
     {
       "active": true,
@@ -159,7 +159,7 @@
       "label": "SQLAlchemy v2.0",
       "moved": 1,
       "quadrant": 0,
-      "ring": 1,
+      "ring": 1
     },{
       "active": true,
       "description": "No-SQL система управления базами данных.",
