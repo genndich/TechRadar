@@ -343,6 +343,38 @@
       "moved": 0,
       "quadrant": 2,
       "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Язык программирования, позиционируемый как средство для разработки веб-приложений, расширяющее возможности JavaScript",
+      "label": "TypeScript",
+      "moved": 1,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Компилятор JavaScript, преобразующий код в старые версии ECMAScript. Решает проблему изменений, происходищих в языке JavaScript ежегодно и позволяет разрабатывать код в современном стиле.",
+      "label": "Babel",
+      "moved": 0,
+      "quadrant": 3,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "CSS фреймворк, предназначенный для адаптивной веб-разработки",
+      "label": "Bootstrap",
+      "moved": 0,
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "active": true,
+      "description": "Хранилище для Vue.js. Оно типобезопасное, расширяемое и с модульной конструкцией.",
+      "label": "Pinia",
+      "moved": 0,
+      "quadrant": 2,
+      "ring": 2
     }
   ]
 }
